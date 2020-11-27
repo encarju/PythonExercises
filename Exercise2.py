@@ -2,7 +2,7 @@ import random
 
 
 def guessNumber():
-    randNum = random.randint(0, 9)
+    randNum = random.randint(1, 9)
     guess = False
 
     while not guess:
