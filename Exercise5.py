@@ -6,10 +6,10 @@ def add_item_to_menu():
     while x < 5:
         item_input = input("Add an Item to Menu: ")
         price_input = float(input("Set an Item Price: "))
-        menu[item_input] = price_input;
+        menu[item_input] = price_input
         x = x + 1
-        choice = input("Want to add more? y/n \n")
-        if choice == "n":
+        add_item_choice = input("Want to add more? y/n \n")
+        if add_item_choice == "n":
             break
 
 
