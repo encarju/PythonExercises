@@ -1,16 +1,16 @@
 import random
 
+
 def guessNumber():
-
     randNum = random.randint(0, 9)
-    guess = False;
+    guess = False
 
-    while (not guess):
+    while not guess:
         userInput = int(input("Enter a Number"))
-        if(userInput == randNum):
+        if userInput == randNum:
             print("Exactly Right")
             guess = True
-        elif(userInput > randNum):
+        elif userInput > randNum:
             print("Too High")
         else:
             print("Too Low")
